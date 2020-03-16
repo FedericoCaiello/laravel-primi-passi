@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('cds');
-});
+Route::get('/index','NomeController@index') -> name('index');
